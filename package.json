@@ -35,10 +35,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paul90/wiki-plugin-mathjax.git"
+    "url": "https://github.com/fedwiki/wiki-plugin-mathjax.git"
   },
   "bugs": {
-    "url": "https://github.com/paul90/wiki-plugin-mathjax/issues"
+    "url": "https://github.com/fedwiki/wiki-plugin-mathjax/issues"
   },
   "engines": {
     "node": "0.10"

@@ -19,7 +19,7 @@
     {
       "type": "paragraph",
       "id": "1734820a1be9fce6",
-      "text": "See [https://github.com/hng/Smallest-Federated-Wiki/tree/master/client/plugins/mathjax GitHub] for plugin source."
+      "text": "See [https://github.com/fedwiki/wiki-plugin-mathjax GitHub] for plugin source."
     },
     {
       "type": "paragraph",
@@ -299,6 +299,16 @@
         "text": "We load the engine from the MathJax content deliver network (cdn). This means that a laptop based wiki will not render LaTeX unless the laptop also has network connectivity."
       },
       "date": 1342316599269
+    },
+    {
+      "type": "edit",
+      "id": "1734820a1be9fce6",
+      "item": {
+        "type": "paragraph",
+        "id": "1734820a1be9fce6",
+        "text": "See [https://github.com/fedwiki/wiki-plugin-mathjax GitHub] for plugin source."
+      },
+      "date": 1389178796139
     }
   ]
 }
