@@ -22,24 +22,24 @@
       "text": "See [https://github.com/fedwiki/wiki-plugin-mathjax GitHub] for plugin source."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "7b6da595c4441d1b",
-      "text": "<h3>Escapes"
+      "text": "<h3>Escapes</h3>"
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "0ec67ffa5abf3384",
       "text": "Enclose LaTeX within <b>backslashed parens</b> when you want to imbed an expression fragment within running text."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "952bbfe603e3eac5",
       "text": "Enclose LaTeX within <b>backslashed square brackets</b> when you want to write complete expressions on lines by themselves."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "e82ffe59fe537c54",
-      "text": "<h3>Limitations"
+      "text": "<h3>Limitations</h3>"
     },
     {
       "type": "paragraph",
@@ -309,6 +309,67 @@
         "text": "See [https://github.com/fedwiki/wiki-plugin-mathjax GitHub] for plugin source."
       },
       "date": 1389178796139
+    },
+    {
+      "type": "edit",
+      "id": "7b6da595c4441d1b",
+      "item": {
+        "type": "html",
+        "id": "7b6da595c4441d1b",
+        "text": "<h3>Escapes"
+      },
+      "date": 1418317073264
+    },
+    {
+      "type": "edit",
+      "id": "7b6da595c4441d1b",
+      "item": {
+        "type": "html",
+        "id": "7b6da595c4441d1b",
+        "text": "<h3>Escapes</h3>"
+      },
+      "date": 1418317080519
+    },
+    {
+      "type": "edit",
+      "id": "0ec67ffa5abf3384",
+      "item": {
+        "type": "html",
+        "id": "0ec67ffa5abf3384",
+        "text": "Enclose LaTeX within <b>backslashed parens</b> when you want to imbed an expression fragment within running text."
+      },
+      "date": 1418317082679
+    },
+    {
+      "type": "edit",
+      "id": "952bbfe603e3eac5",
+      "item": {
+        "type": "html",
+        "id": "952bbfe603e3eac5",
+        "text": "Enclose LaTeX within <b>backslashed square brackets</b> when you want to write complete expressions on lines by themselves."
+      },
+      "date": 1418317084727
+    },
+    {
+      "type": "edit",
+      "id": "e82ffe59fe537c54",
+      "item": {
+        "type": "html",
+        "id": "e82ffe59fe537c54",
+        "text": "<h3>Limitations"
+      },
+      "date": 1418317086183
+    },
+    {
+      "type": "edit",
+      "id": "e82ffe59fe537c54",
+      "item": {
+        "type": "html",
+        "id": "e82ffe59fe537c54",
+        "text": "<h3>Limitations</h3>"
+      },
+      "date": 1418317092585
     }
-  ]
+  ],
+  "plugin": "mathjax"
 }
