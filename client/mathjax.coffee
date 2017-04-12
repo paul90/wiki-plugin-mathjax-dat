@@ -10,12 +10,14 @@ window.plugins.mathjax =
     typeset = ->
       window.MathJax.Hub.Queue ["Typeset", MathJax.Hub]
 
-    wiki.getScript 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML', typeset
+
+    wiki.getScript 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML', typeset
     div.append "<p>#{wiki.resolveLinks(item.text)}</p>"
 
   bind: (div, item) ->
     typeset = ->
       window.MathJax.Hub.Queue ["Typeset", MathJax.Hub, div.get(0)]
 
-    wiki.getScript 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML', typeset
+
+    wiki.getScript 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML', typeset
     div.dblclick -> wiki.textEditor div, item

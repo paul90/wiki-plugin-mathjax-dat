@@ -1,0 +1,19 @@
+# mathjax plugin, server-side component
+#
+# adds a path for the client to load MathJax
+
+path = require 'path'
+express = require 'express'
+
+startServer = (params) ->
+  app = params.app
+
+  mathjaxLoc = require.resolve('mathjax')
+  mathjaxPath = mathjaxLoc.substring(0, mathjaxLoc.lastIndexOf(path.sep))
+
+  console.log "MathJax path = #{mathjaxPath}"
+
+  app.use('/plugins/mathjax/mathjax', express.static(mathjaxPath))
+
+
+module.exports = {startServer}
