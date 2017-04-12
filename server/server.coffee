@@ -1,6 +1,7 @@
 # mathjax plugin, server-side component
 #
 # adds a path for the client to load MathJax
+# unused for now, see https://github.com/fedwiki/wiki-plugin-mathjax/pull/7
 
 path = require 'path'
 express = require 'express'
