@@ -19,7 +19,7 @@ module.exports = function (grunt) {
         options: {
           sourceMap: true
         },
-        src: ['client/*.coffee', 'server/*.coffee'],
+        src: ['client/*.coffee'],
         ext: '.js'
       }
     },
