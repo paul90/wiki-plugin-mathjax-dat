@@ -1,5 +1,5 @@
 {
-  "name": "wiki-plugin-mathjax",
+  "name": "@paul90/wiki-plugin-mathjax",
   "version": "0.2.4",
   "description": "Federated Wiki - MathJax Plug-in",
   "keywords": [
@@ -29,17 +29,17 @@
   },
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-coffee": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-git-authors": "^3.2.0"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fedwiki/wiki-plugin-mathjax.git"
+    "url": "https://github.com/paul90/wiki-plugin-mathjax-dat.git"
   },
   "bugs": {
-    "url": "https://github.com/fedwiki/wiki-plugin-mathjax/issues"
+    "url": "https://github.com/paul90/wiki-plugin-mathjax-dat/issues"
   },
   "engines": {
     "node": ">=6.0"
